@@ -1,0 +1,55 @@
+    1  cd git-basic-exercises
+    2  ls -a
+    3  git status
+    4  touch README.md
+    5  ls -a
+    6  git status
+    7  git log
+    8  git add
+    9  git status
+   10  git reset HEAD README.md
+   11  git status
+   12  git add README.md
+   13  git commit -m "initial commit"
+   14  git log
+   15  nano README.md
+   16  cat README.md
+   17  git status
+   18  git add README.md
+   19  commit -m "second commit"
+   20  git commit -m "second commit"
+   21  nano README.md
+   22  git add README.md
+   23  git commit -m "third commit"
+   24  git log
+   25  q
+   26  git checkout
+   27  commit 1f787b6b0df7ca77e4d2b6737fc7834bace4c2d6
+   28  Author: olwethu28 <137727115+Olwethu28@users.noreply.github.com>
+   29  Date:   Fri Jan 31 09:19:05 2025 +0200
+   30      initial commit
+   31  1f787b6b0df7ca77e4d2b6737fc7834bace4c2d6
+   32  git log
+   33  git checkout 1f787b6b0df7ca77e4d2b6737fc7834bace4c2d6
+   34  cat README.md
+   35  git checkout main
+   36  cat README.md
+   37  git checkout master
+   38  cat README.md
+   39  git branch
+   40  git branch -m master main
+   41  git checkout -b milkshake-flavours
+   42  git branch
+   43  git checkout milkshake-flavours
+   44  git branch
+   45  nano milkshakes.md
+   46  git status
+   47  git add milkshakes.md
+   48  git commit -m "added initial flavours"
+   49  git log
+   50  git checkout main
+   51  git checkout -b history
+   52  git branch
+   53  git log --oneline
+   54  git log
+   55  history > history.txt
