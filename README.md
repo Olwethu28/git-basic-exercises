@@ -1,1 +1,1 @@
-This is a readme file updated version
+This is how a readme file updated version looks like
